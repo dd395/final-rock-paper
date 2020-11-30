@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Final Rock.iml" filepath="$PROJECT_DIR$/.idea/Final Rock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/final-rock-paper.iml" filepath="$PROJECT_DIR$/.idea/final-rock-paper.iml" />
     </modules>
   </component>
 </project>
