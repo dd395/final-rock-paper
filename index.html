@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Rock Paper Scissors Lizard Spock </title>
+    <!-- Bootstrap styles first -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/9774278fae.js" crossorigin="anonymous"></script>
+    <!-- Our styles -->
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="modal.css" rel="stylesheet" type="text/css"/>
+</head>
+<header>
+    Rock Paper Scissors Lizard Spock
+</header>
+<body>
+<div>
+<h2> Game Rules</h2>
+<ul class="rulesList">
+    <li>Scissors cuts Paper</li>
+    <li>Paper covers Rock</li>
+    <li>Rock crushes Lizard</li>
+    <li>Lizard poisons Spock</li>
+    <li>Spock smashes Scissors</li>
+    <li>Scissors decapitates Lizard</li>
+    <li>Lizard eats Paper</li>
+    <li>Paper disproves Spock</li>
+    <li>Spock vaporizes Rock</li>
+    <li>Rock crushes Scissors</li>
+</ul>
+<p>
+    Best 2 out of 3 rounds wins the game.
+</p>
+</div>
+
+<div class="container ">
+
+    <button id="restart" class ="restart-btn">Restart Game</button>
+
+    <div id ="score" class="score">
+        <p>Player: 0</p>
+        <p>Computer: 0</p>
+    </div>
+            <h2>Make Your Selection</h2>
+
+    <div class = "choices">
+        <i id="rock" class="choice fas fa-hand-rock fa-3x">Rock</i>
+        <i id="paper" class="choice fas fa-hand-paper fa-3x">Paper</i>
+        <i id="scissors" class="choice fas fa-hand-scissors fa-3x">Scissors</i>
+        <i id="lizard" class="choice fas fa-hand-lizard fa-3x">Lizard</i>
+        <i id="spock" class="choice fas fa-hand-spock fa-3x">Spock</i>
+    </div>
+
+<!-- Modal -->
+<div class ="modal">
+    <div id ="result" class="modal-content">
+        <h1 class ="text-win">You Win</h1>
+        <i class="fas fa-hand-rock fa-3x"></i>
+        <p>Computer Chose Rock</p>
+
+
+
+</div>
+
+
+</div>
+</div>
+
+
+
+
+<!-- jQuery first -->
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<!-- Popper and Bootstrap second -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+<!-- Our code last -->
+<script src ="code.js"></script>
+
+</body>
+</html>
