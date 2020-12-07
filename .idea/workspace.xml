@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="486c6f7c-c002-4c7f-bcef-338e972b31b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modal.css" beforeDir="false" afterPath="$PROJECT_DIR$/modal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,21 +58,49 @@
       <updated>1606677453250</updated>
       <workItem from="1606677454278" duration="18806000" />
       <workItem from="1606699426649" duration="10885000" />
-      <workItem from="1606760688721" duration="7041000" />
+      <workItem from="1606760688721" duration="13937000" />
+      <workItem from="1606952251329" duration="1843000" />
+      <workItem from="1607048738004" duration="3474000" />
+      <workItem from="1607101175974" duration="2391000" />
+      <workItem from="1607279477959" duration="21907000" />
     </task>
+    <task id="LOCAL-00001" summary="help needed">
+      <created>1606770619045</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606770619045</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="help needed" />
+    <option name="LAST_COMMIT_MESSAGE" value="help needed" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="979" y="310" key="Github.ShareDialog" timestamp="1606715106892">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1606770618444">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="979" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1606715106892" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1606770618444" />
+    <state x="979" y="310" key="Github.ShareDialog" timestamp="1607317015375">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="979" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1607317015375" />
     <state x="580" y="117" key="Github.UntrackedFilesDialog" timestamp="1606715118010">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="580" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1606715118010" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607317148072">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607317148072" />
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607318104023">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1607318104023" />
   </component>
 </project>

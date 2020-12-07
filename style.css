@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 :root{
     --primary-color: #003699;
     --dark-color: #333333;
     --light-color: #f4f4f4;
     --lose-color: #dc3545;
     --win-color: #28a745;
-    --modal-duration: 1s;
 
 }
 *{
@@ -29,7 +28,7 @@ p{
 
 
 body{
-    font-family: 'Roboto',sans-serif;
+    font-family:Roboto,sans-serif;
     line-height: 1.6;
     background: slategray;
     color: #333;
@@ -51,7 +50,7 @@ header{
 }
 .restart-btn{
     display: none;
-    background: var(--light-color);
+    background-color: red;
     color: #333;
     padding: 0.4rem 1.3rem;
     font-size: 1rem;
