@@ -28,6 +28,7 @@ $(document).ready(
             showWinner(winner, computerChoice);
 
 
+
             //console.log(playerChoice, computerChoice, winner);
 
             //Get computers choice
@@ -91,72 +92,97 @@ $(document).ready(
                     } else if (c === 'lizard') {
                         return 'computer';
                     }
-                }}
+                }
+            }
 
 
-                    function showWinner(winner, computerChoice) {
-                        if (winner === 'player') {
-                            //increment player score
-                            scoreboard.player++;
-                            //show modal result
-                            result.innerHTML =
-                                `<h1 class="text-win">You Win</h1>
+            function showWinner(winner, computerChoice) {
+                if (winner === 'player') {
+                    //increment player score
+                    scoreboard.player++;
+                    //show modal result
+                    result.innerHTML =
+                        `<h1 class="text-win">You Win</h1>
                 <i class ="fas fa-hand-${computerChoice} fa-3X"></i>
                 <p>Computer Chose<strong>${computerChoice.charAt(0).toUpperCase() + computerChoice.slice(1)}</strong></p>
                  `;
-                        } else if (winner === 'computer') {
-                            //increment computer score
-                            scoreboard.computer++;
-                            //modal result
-                            result.innerHTML =
-                                `<h1 class="text-lose">You Lose</h1>
+                } else if (winner === 'computer') {
+                    //increment computer score
+                    scoreboard.computer++;
+                    //modal result
+                    result.innerHTML =
+                        `<h1 class="text-lose">You Lose</h1>
                 <i class ="fas fa-hand-${computerChoice} fa-3X"></i>
                 <p>Computer Chose<strong>${computerChoice.charAt(0).toUpperCase() + computerChoice.slice(1)}</strong></p>
                  `;
-                        } else {
-                            result.innerHTML =
-                                `<h1>It's A Draw</h1>
+                } else if (winner === 'player' || 'scoreboard.player===3') {
+                    //increment computer score
+                   // scoreboard.computer++;
+                    //modal result
+                    result.innerHTML =
+                        `<h1>Computer Won the Round</h1>
                 <i class ="fas fa-hand-${computerChoice} fa-3X"></i>
                 <p>Computer Chose<strong>${computerChoice.charAt(0).toUpperCase() + computerChoice.slice(1)}</strong></p>
                  `;
-                        }
-                        //Show score
-                        score.innerHTML = `
+                } else if (winner ==='computer ' || 'scoreboard.computer===3') {
+                    //increment player score
+                    // scoreboard.player++;
+                    //modal result
+                    result.innerHTML =
+                        `<h1>Player Won the Round</h1>
+                <i class ="fas fa-hand-${computerChoice} fa-3X"></i>
+                <p>Computer Chose<strong>${computerChoice.charAt(0).toUpperCase() + computerChoice.slice(1)}</strong></p>
+                 `;
+
+
+                } else {
+                    result.innerHTML =
+                        `<h1>It's A Draw</h1>
+                <i class ="fas fa-hand-${computerChoice} fa-3X"></i>
+                <p>Computer Chose<strong>${computerChoice.charAt(0).toUpperCase() + computerChoice.slice(1)}</strong></p>
+                 `;
+                }
+                //Show score
+                score.innerHTML = `
             <p>Player: ${scoreboard.player}</p>
-             <p>Computer:${scoreboard.computer}</p>
-             `;
-                        modal.style.display = 'block';
+             <p>Computer:${scoreboard.computer}</p>             
+            
+              `
+               ;
 
-                        //Restart game
-                        function restartGame() {
-                            scoreboard.player = 0;
-                            scoreboard.computer = 0;
-                            score.innerHTML = `
+
+
+            }
+
+
+                modal.style.display = 'block';
+
+
+                //Restart game
+                function restartGame() {
+                    scoreboard.player = 0;
+                    scoreboard.computer = 0;
+                    score.innerHTML = `
             <p>Player: 0</p>
             <p>Computer: 0</p>
             `;
-                        }
+                }
 
-                        //Clear modal
-                        function clearModal(e) {
-                            if (e.target === modal) {
-                                modal.style.display = 'none';
-                            }
-                        }
-
-
-
-                        console.log("end play");
-
-
-                        window.addEventListener('click', clearModal);
-                        restart.addEventListener('click', restartGame);
+                //Clear modal
+                function clearModal(e) {
+                    if (e.target === modal) {
+                        modal.style.display = 'none';
                     }
                 }
 
-            }
-)
 
+                console.log("end play");
+
+
+                window.addEventListener('click', clearModal);
+                restart.addEventListener('click', restartGame);
+            }
+        })
 
 
 
